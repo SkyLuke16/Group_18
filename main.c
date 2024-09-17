@@ -28,9 +28,9 @@ int main() {
     // Third quadrant (x < 0, y < 0)
     if (bottomLeftX < 0 && bottomLeftY < 0) {
         int thirdX = (topRightX < 0) ? topRightX : 0;
-        int thirdY = bottomLeftY;
-        int thirdW = -bottomLeftX;
-        int thirdH = -bottomLeftY;
+        int thirdY = (topRightY < 0) ? topRightY : 0;
+        int thirdW = thirdX - bottomLeftX;
+        int thirdH = thirdY - bottomLeftY;
         C = thirdW * thirdH;
     }
 
