@@ -20,7 +20,7 @@ int main() {
     if (bottomLeftX < 0 && topRightY > 0) {
         int secondX = (topRightX < 0) ? topRightX : 0;
         int secondY = topRightY;
-        int secondW = -bottomLeftX;
+        int secondW = -bottomLeftX+secondX;
         int secondH = (bottomLeftY > 0) ? secondY - bottomLeftY : secondY;
         B = secondW * secondH;
     }
@@ -37,9 +37,9 @@ int main() {
     // Fourth quadrant (x > 0, y < 0)
     if (topRightX > 0 && bottomLeftY < 0) {
         int fourthX = topRightX;
-        int fourthY = bottomLeftY;
+        int fourthY = (topRightY < 0) ? topRightY : 0;
         int fourthW = (bottomLeftX > 0) ? fourthX - bottomLeftX : fourthX;
-        int fourthH = -bottomLeftY;
+        int fourthH = -bottomLeftY+fourthY;
         D = fourthW * fourthH;
     }
 
