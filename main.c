@@ -1,15 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int x1, y1, x2, y2;
-    scanf("%d %d", &x1, &y1);
-    scanf("%d %d", &x2, &y2);
-
-    // Ensure x1, y1 is the top-right and x2, y2 is the bottom-left
-    int topRightX = (x1 > x2) ? x1 : x2;
-    int topRightY = (y1 > y2) ? y1 : y2;
-    int bottomLeftX = (x1 < x2) ? x1 : x2;
-    int bottomLeftY = (y1 < y2) ? y1 : y2;
+    int topRightX, topRightY, bottomLeftX, bottomLeftY;
+    scanf("%d %d %d %d", &topRightX, &topRightY, &bottomLeftX, &bottomLeftY);
 
     // Initialize areas for each quadrant
     int A = 0, B = 0, C = 0, D = 0;
@@ -52,6 +45,5 @@ int main() {
 
     // Output the areas for each quadrant
     printf("%d %d %d %d\n", A, B, C, D);
-
     return 0;
 }

@@ -18,7 +18,9 @@ $A\text{, }B\text{, }C\text{, }D$ are the area of the rectangle inside the first
 
 ## Constraint ##
 
-$-2^{16} < X_{1}\text{, }Y_{1}\text{, }X_{2}\text{, }Y_{2} < 2^{16}$
+$X_{1} \leq X_{2}\text{, }Y_{1} \leq Y_{2}$
+
+$0 \req A\text{, }B\text{, }C\text{, }D < 2^{31} - 1$
 
 ## Sample Input 1 ##
 
