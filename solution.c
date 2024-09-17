@@ -23,7 +23,7 @@ int main() {
         A = firstW * firstH;
     }
 
-    // Second quadrant (x < 0, y > 0 )
+    // Second quadrant (x < 0, y > 0)
     if (bottomLeftX < 0 && topRightY > 0) {
         int secondX = (topRightX < 0) ? topRightX : 0;
         int secondY = topRightY;
