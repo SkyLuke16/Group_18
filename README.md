@@ -20,7 +20,7 @@ $A\text{, }B\text{, }C\text{, }D$ are the area of the rectangle inside the first
 
 $X_{1} \leq X_{2}\text{, }Y_{1} \leq Y_{2}$
 
-$0 \req A\text{, }B\text{, }C\text{, }D < 2^{31} - 1$
+$0 \geq A\text{, }B\text{, }C\text{, }D < 2^{31} - 1$
 
 ## Sample Input 1 ##
 
