@@ -8,7 +8,7 @@ $X_{1}\text{ }Y_{1}$
 
 $X_{2}\text{ }Y_{2}$
 
-($x_{1}\text{, }y_{1}$) is the top-right coordinates of the rectangle, while ($x_{2}\text{, }y_{2}$) is the bottom-left coordinates of the rectangle.
+($X_{1}\text{, }Y_{1}$) is the top-right coordinates of the rectangle, while ($X_{2}\text{, }Y_{2}$) is the bottom-left coordinates of the rectangle.
 
 ## Output Format ##
 
