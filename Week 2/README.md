@@ -20,7 +20,9 @@ $A\text{, }B\text{, }C\text{, }D$ are the area of the rectangle inside the first
 
 $X_{1} \leq X_{2}\text{, }Y_{1} \leq Y_{2}$
 
-$0 \leq A\text{, }B\text{, }C\text{, }D < 2^{31} - 1$
+$0 \leq X_{1}\text{, }X_{2}\text{, }Y_{1}\text{, }Y_{2} \leq 2^{16}$
+
+$0 \leq A\text{, }B\text{, }C\text{, }D < 2^{31}$
 
 ## Sample Input 1 ##
 
@@ -47,3 +49,7 @@ $0 \leq A\text{, }B\text{, }C\text{, }D < 2^{31} - 1$
 ```
 0 100000000 100000000 0
 ```
+
+## Hint ##
+
+If you first calculate the whole area of the rectangle, you may cause overflow.
